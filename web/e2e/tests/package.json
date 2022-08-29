@@ -1,0 +1,15 @@
+{
+  "name": "festivals-ui-test-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run --spec **/*cy.js* --headless --browser chrome"
+  },
+  "author": "mythili",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.6.0"
+  }
+}
